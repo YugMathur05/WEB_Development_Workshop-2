@@ -16,26 +16,26 @@ body {
     text-align: center;
 }
 
-/* Container style */
+
 .container {
     margin-top: 80px;
 }
 
-/* Heading */
+
 h1 {
     font-size: 40px;
     margin-bottom: 20px;
     transition: 0.3s;
 }
 
-/* Paragraph */
+
 p {
     font-size: 18px;
     color: #333;
     margin-bottom: 20px;
 }
 
-/* Input box */
+
 input {
     padding: 10px;
     width: 250px;
@@ -48,7 +48,7 @@ input:focus {
     border-color: #007bff;
 }
 
-/* Buttons */
+
 button {
     padding: 10px 15px;
     margin: 8px;
@@ -60,13 +60,13 @@ button {
     transition: 0.3s;
 }
 
-/* Hover effect */
+
 button:hover {
     background-color: #0056b3;
     transform: scale(1.05);
 }
 
-/* Active click effect */
+
 button:active {
     transform: scale(0.95);
 }
