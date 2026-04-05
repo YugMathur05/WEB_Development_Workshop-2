@@ -1,34 +1,24 @@
-/* Exp-1.CSS */
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(135deg, #24baa1, #9face6);
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
+    align-items: center; }
 .container {
     background: white;
     padding: 30px;
     border-radius: 10px;
     width: 350px;
     text-align: center;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-}
-
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); }
 h2 {
-    margin-bottom: 20px;
-}
-
+    margin-bottom: 20px; }
 input {
     width: 80%;
     padding: 8px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
+    border-radius: 5px; }
 button {
     padding: 10px 20px;
     border: none;
@@ -36,15 +26,10 @@ button {
     color: white;
     font-size: 16px;
     border-radius: 5px;
-    cursor: pointer;
-}
-
+    cursor: pointer; }
 button:hover {
-    background: #e1aa05;
-}
-
+    background: #e1aa05; }
 #result {
     margin-top: 20px;
     font-weight: bold;
-    font-size: 18px;
-}
+    font-size: 18px; }

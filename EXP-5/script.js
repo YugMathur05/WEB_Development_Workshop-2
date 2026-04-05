@@ -1,23 +1,19 @@
 let employees = [];
-
 let inputs = document.querySelectorAll("input");
 let output = document.getElementById("output");
-
 let addBtn = document.getElementById("Add");
 let totalBtn = document.getElementById("TotalSalary");
 let displayBtn = document.getElementById("DisplayAll");
 let greaterBtn = document.getElementById("SalaryGreater");
 let avgBtn = document.getElementById("Avg");
 let countBtn = document.getElementById("Count");
-
 // Add Employee
 addBtn.addEventListener("click", () => {
     let name = inputs[0].value.trim();
     let id = inputs[1].value.trim();
     let salary = inputs[2].value.trim();
     let dept = inputs[3].value.trim();
-
-    // ✅ Validation
+// ✅ Validation
     if (name === "" || id === "" || salary === "" || dept === "") {
         alert("⚠️ Please fill all employee details!");
         return;
